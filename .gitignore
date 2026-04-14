@@ -1,0 +1,36 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Data caches (managed by GitHub Actions cache)
+history_cache.pkl
+dividend_cache.pkl
+db_config.json
+
+# Logs
+*.log
+update.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+run_daily.bat
+*.tmp
